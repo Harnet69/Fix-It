@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Customer"
+            android:text="Something broke?"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -42,7 +42,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="50dp"
             android:gravity="center"
-            android:text="Look for a worker"
+            android:text="Have a problem with car, plumbing, electric or another issue? Need someone for help?"
             android:textSize="16sp" />
 
         <TextView

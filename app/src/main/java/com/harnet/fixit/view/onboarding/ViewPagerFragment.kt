@@ -20,9 +20,9 @@ class ViewPagerFragment : Fragment() {
         dataBinding = DataBindingUtil.inflate(inflater, R.layout.view_pager, container, false)
 
         val fragmentList = arrayListOf<Fragment>(
-            AboutScreen(),
             CustomerScreen(),
-            ExecutorScreen()
+            ExecutorScreen(),
+            AboutScreen()
         )
 
         val adapter = ViewPagerAdapter(

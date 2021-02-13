@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="About the app"
+            android:text="Fix it"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -41,7 +41,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="50dp"
             android:gravity="center"
-            android:text="App description"
+            android:text="Application for connection customers and executors of any work"
             android:textSize="16sp" />
 
         <TextView
