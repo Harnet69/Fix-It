@@ -1,14 +1,14 @@
 package com.harnet.fixit.modelView
 
-import android.view.animation.AnimationSet
-import android.view.animation.DecelerateInterpolator
-import android.view.animation.RotateAnimation
 import android.widget.ImageView
 import androidx.lifecycle.ViewModel
 import androidx.navigation.Navigation
+import com.harnet.fixit.util.rotateImg
 import com.harnet.fixit.view.SplashFragmentDirections
-import kotlinx.coroutines.*
-
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class SplashViewModel : ViewModel() {
     private val duration = 1500L
@@ -18,31 +18,12 @@ class SplashViewModel : ViewModel() {
     fun redirect(imageView: ImageView) {
         coroutineScope.launch {
             delay(duration - rotationDelay)
-            rotateImg(imageView)
+            imageView.rotateImg(1500)
             delay(duration)
             coroutineScope.launch(Dispatchers.Main) {
                 Navigation.findNavController(imageView)
                     .navigate(SplashFragmentDirections.actionSplashFragmentToViewPagerFragment())
             }
         }
-    }
-
-    private fun rotateImg(imageView: ImageView) {
-        val animSet = AnimationSet(true)
-        animSet.interpolator = DecelerateInterpolator()
-        animSet.fillAfter = true
-        animSet.isFillEnabled = true
-
-        val animRotate = RotateAnimation(
-            0.0f, 740.0f,
-            RotateAnimation.RELATIVE_TO_SELF, 0.5f,
-            RotateAnimation.RELATIVE_TO_SELF, 0.5f
-        )
-
-        animRotate.duration = duration - rotationDelay
-        animRotate.fillAfter = true
-        animSet.addAnimation(animRotate)
-
-        imageView.startAnimation(animSet)
     }
 }
