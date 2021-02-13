@@ -18,4 +18,5 @@
     <string name="btn_next_text">Dalej</string>
     <string name="startup_app_logo_descr">Logo aplikacji</string>
     <string name="standard_background">Tło standardowe</string>
+    <string name="onboarding_lets_start">Zaczynamy</string>
 </resources>

@@ -18,4 +18,5 @@
     <string name="onboarding_about_title">Fix it</string>
     <string name="onboarding_about_desc">Application for connection customers and executors of any work</string>
     <string name="btn_next_text">Next</string>
+    <string name="onboarding_lets_start">Lets start</string>
 </resources>
