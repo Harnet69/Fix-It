@@ -12,7 +12,7 @@ import kotlinx.coroutines.*
 
 class SplashViewModel : ViewModel() {
     private val duration = 1500L
-    private val rotationDelay = duration /10
+    private val rotationDelay = duration / 10
     private val coroutineScope = CoroutineScope(Dispatchers.Default)
 
     fun redirect(imageView: ImageView) {
@@ -22,7 +22,7 @@ class SplashViewModel : ViewModel() {
             delay(duration)
             coroutineScope.launch(Dispatchers.Main) {
                 Navigation.findNavController(imageView)
-                    .navigate(SplashFragmentDirections.actionSplashFragmentToStartUpFragment())
+                    .navigate(SplashFragmentDirections.actionSplashFragmentToViewPagerFragment())
             }
         }
     }

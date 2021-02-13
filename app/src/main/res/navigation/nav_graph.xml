@@ -16,7 +16,16 @@
         android:label="splash_fragment"
         tools:layout="@layout/splash_fragment" >
         <action
-            android:id="@+id/action_splashFragment_to_startUpFragment"
+            android:id="@+id/action_splashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.harnet.fixit.view.onboarding.ViewPagerFragment"
+        android:label="view_pager"
+        tools:layout="@layout/view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_startUpFragment"
             app:destination="@id/startUpFragment" />
     </fragment>
 </navigation>
