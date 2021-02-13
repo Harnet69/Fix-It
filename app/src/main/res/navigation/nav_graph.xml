@@ -3,11 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/startUpFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/startUpFragment"
         android:name="com.harnet.fixit.view.StartUpFragment"
         android:label="start_up_fragment"
         tools:layout="@layout/start_up_fragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.harnet.fixit.view.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_startUpFragment"
+            app:destination="@id/startUpFragment" />
+    </fragment>
 </navigation>
