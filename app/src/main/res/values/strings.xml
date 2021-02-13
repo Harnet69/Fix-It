@@ -10,6 +10,13 @@
     <string name="user_signup_confirm_password">Confirm password</string>
     <string name="btn_logout_text">Log out</string>
     <string name="standard_background">Standard background</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboarding_customer_title">Something broke?</string>
+    <string name="onboarding_customer_desc">Have a problem with car, plumbing, electric or another issue? Need someone for help?</string>
+    <string name="onboarding_executor_title">Are you a handyman?</string>
+    <string name="onboarding_executor_desc">Can fix almost anything? Have some free from work time?</string>
+    <string name="onboarding_about_title">Fix it</string>
+    <string name="onboarding_about_desc">Application for connection customers and executors of any work</string>
+    <string name="btn_next_text">Next</string>
 </resources>
