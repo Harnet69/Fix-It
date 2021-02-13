@@ -11,9 +11,8 @@
     <string name="btn_logout_text">Log out</string>
     <string name="standard_background">Standard background</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="onboarding_customer_title">Something broke?</string>
-    <string name="onboarding_customer_desc">Have a problem with car, plumbing, electric or another issue? Need someone for help?</string>
+    <string name="onboarding_customer_desc">Have a problem with car, computer, plumbing, or another issue? Need someone for help?</string>
     <string name="onboarding_executor_title">Are you a handyman?</string>
     <string name="onboarding_executor_desc">Can fix almost anything? Have some free from work time?</string>
     <string name="onboarding_about_title">Fix it</string>
