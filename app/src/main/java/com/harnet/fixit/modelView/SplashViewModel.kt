@@ -34,7 +34,7 @@ class SplashViewModel : ViewModel() {
         animSet.isFillEnabled = true
 
         val animRotate = RotateAnimation(
-            0.0f, 360.0f,
+            0.0f, 740.0f,
             RotateAnimation.RELATIVE_TO_SELF, 0.5f,
             RotateAnimation.RELATIVE_TO_SELF, 0.5f
         )
