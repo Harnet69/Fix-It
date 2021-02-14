@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_splashFragment_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_startUpFragment"
+            app:destination="@id/startUpFragment" />
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"

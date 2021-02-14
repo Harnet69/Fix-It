@@ -1,4 +1,4 @@
-package com.harnet.fixit.modelView
+package com.harnet.fixit.viewModel
 
 import androidx.lifecycle.ViewModel
 

@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.harnet.fixit.R
-import com.harnet.fixit.modelView.StartUpViewModel
+import com.harnet.fixit.viewModel.StartUpViewModel
 
 class StartUpFragment : Fragment() {
 
