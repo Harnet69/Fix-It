@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "28006413297",
+    "project_id": "fixit-a891f",
+    "storage_bucket": "fixit-a891f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28006413297:android:3e65b69fc92b5d93d04a50",
+        "android_client_info": {
+          "package_name": "com.harnet.fixit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28006413297-km22g4uo7iv9hpgcaukg1adit4ssbvdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harnet.fixit",
+            "certificate_hash": "c7714239499d12eba986ba24f76b0b6adb836154"
+          }
+        },
+        {
+          "client_id": "28006413297-qhp7lesaepifsbg31opi6s9te3j3c8fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9YUowSrGq7bI3cD4c6CNJoj_PrzvjO6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28006413297-qhp7lesaepifsbg31opi6s9te3j3c8fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
